@@ -1,0 +1,22 @@
+@charset "UTF-8";
+ul {
+  list-style: none;
+  padding-left: 1em;
+}
+vo {
+  color: red;
+}
+ju {
+  color: blue;
+  font-weight: bold;
+}
+acc {
+  font-weight: bold;
+  color: tomato;
+}
+acc::before {
+  content: "[";
+}
+acc::after {
+  content: "]";
+}
