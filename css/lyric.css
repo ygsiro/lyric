@@ -20,3 +20,7 @@ acc::before {
 acc::after {
   content: "]";
 }
+v {
+  font-weight: bold;
+  color: green;
+}

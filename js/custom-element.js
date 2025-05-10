@@ -18,6 +18,13 @@ class LyricAccent extends HTMLSpanElement{
     }
 }
 
+class LyricBless extends HTMLSpanElement{
+    constructor() {
+        super();
+    }
+}
+
 customElements.define("vo", LyricVowel);
 customElements.define("ju", LyricJunction);
 customElements.define("acc", LyricJunction);
+customElements.define("v", LyricBless);
