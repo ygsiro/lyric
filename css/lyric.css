@@ -1,4 +1,11 @@
 @charset "UTF-8";
+body {
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-attachment: fixed;
+  background-image: url(../image/イラスト36.jpg);
+  font-weight: bold;
+}
 ul {
   list-style: none;
   padding-left: 1em;
