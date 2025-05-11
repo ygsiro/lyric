@@ -24,7 +24,14 @@ class LyricBless extends HTMLSpanElement{
     }
 }
 
+class LyricCallAndResponse extends HTMLSpanElement{
+    constructor() {
+        super();
+    }
+}
+
 customElements.define("vo", LyricVowel);
 customElements.define("ju", LyricJunction);
 customElements.define("acc", LyricJunction);
 customElements.define("v", LyricBless);
+customElements.define("cr", LyricCallAndResponse);
