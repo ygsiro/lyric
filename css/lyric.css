@@ -27,3 +27,10 @@ v {
 cr {
   color: gray;
 }
+.aside {
+  font-size: small;
+  color: gray;
+}
+.aside::before {
+  content: "※";
+}
