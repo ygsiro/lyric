@@ -16,6 +16,7 @@
 	// 	"description": "Log output to console"
 	// }
 	"lyric":{
+		"prefix": "lyric",
 		"isFileTemplate": true,
 		"body": [
 			"<!DOCTYPE html>",
